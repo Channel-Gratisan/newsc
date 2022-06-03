@@ -36,7 +36,7 @@ else
 echo "User premium Only ,Sila Contact Admin Bot😘"
 clear
 echo "sila contact admin untuk premium"
-rm -f setup.sh
+./setup.sh
 
 echo '                   Wellcome User....                      '
 echo '                                                          '
@@ -45,7 +45,6 @@ echo '                                                          '
 echo '               AutoScript By MasWayVPN             '
 echo '              Telegram : t.me/MasWayVPN                  '
 sleep 20
-exit 0
 fi
 echo '============================================='
 echo '         Silakan Tunggu sebentar '
