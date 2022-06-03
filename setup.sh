@@ -34,8 +34,6 @@ echo -e "${green} Please Wait, Proses...${NC}"
 sleep 5
 else
 echo "User premium Only ,Sila Contact Admin Bot😘"
-exit 0
-fi
 clear
 echo "sila contact admin untuk premium"
 rm -f setup.sh
