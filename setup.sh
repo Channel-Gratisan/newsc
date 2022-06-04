@@ -74,40 +74,50 @@ clear
 echo '============================================='
 echo '        Installing SSH & OPENVPN '
 echo '============================================='
+sleep 5
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 echo '============================================='
 echo '        Installing SSTP '
 echo '============================================='
+sleep 5
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 echo '============================================='
 echo '        Installing ssr '
 echo '============================================='
+sleep 5
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
 echo '============================================='
 echo '        Installing shadowsocksobfs '
 echo '============================================='
+sleep 5
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 echo '============================================='
 echo '        Installing WIREGUARD '
 echo '============================================='
+sleep 5
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 echo '============================================='
 echo '        Installing V2RAY '
 echo '============================================='
+sleep 5
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 echo '============================================='
 echo '        Installing ipsec '
 echo '============================================='
+sleep 5
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 echo '        Installing XRAY '
 echo '============================================='
+sleep 5
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/install-xray.sh && chmod +x install-xray.sh && screen -S xray ./install-xray.sh
 echo '============================================='
 echo '        Installing Websocket '
 echo '============================================='
+sleep 5
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/websocket/websocket.sh && chmod +x websocket.sh && ./websocket.sh
 echo '        Installing OHP '
 echo '============================================='
+sleep 5
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/ohp/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 echo '============================================='
