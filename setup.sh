@@ -8,7 +8,6 @@ if [ $MYIP = $IZIN ]; then
 clear
 echo -e "${green} Please Wait, Proses...${NC}"
 sleep 5
-else
 echo "User premium Only ,Sila Contact Admin Bot😘"
 clear
 echo "silahkan contact admin untuk premium"
