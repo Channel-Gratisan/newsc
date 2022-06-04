@@ -1,4 +1,23 @@
 #!/bin/bash
+if [ "${EUID}" -ne 0 ]; then
+		echo "You need to run this script as root"
+		exit 1
+fi
+if [ "$(systemd-detect-virt)" == "openvz" ]; then
+		echo "OpenVZ is not supported"
+		exit 1
+fi
+red='\e[1;31m'
+green='\e[0;32m'
+NC='\e[0m'
+MYIP=$(wget -qO- icanhazip.com);
+echo "Checking VPS"
+IZIN=$( curl https://raw.githubusercontent.com/Channel-Gratisan/ipvps/main/ip | grep $MYIP )
+if [ $MYIP = $IZIN ]; then
+echo -e "${green}Permission Accepted...${NC}"
+else
+echo -e "${green}Permission Accepted...${NC}"
+fi
 
 # install text 
 apt update -y
@@ -13,33 +32,6 @@ apt -y install figlet
 # install wget and curl
 apt -y install wget curl
 
-sleep 5
-clear
-if [ "${EUID}" -ne 0 ]; then
-		echo "You need to run this script as root"
-		exit 1
-fi
-if [ "$(systemd-detect-virt)" == "openvz" ]; then
-		echo "OpenVZ is not supported"
-		exit 1
-fi
-
-red='\e[1;31m'
-green='\e[0;32m'
-NC='\e[0m'
-MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/ip.sh | grep $MYIP )
-if [ $MYIP = $IZIN ]; then
-clear
-echo -e "${green} Please Wait, Proses...${NC}"
-else
-echo "User premium Only ,Sila Contact Admin Bot😘"
-clear
-echo "silahkan contact admin untuk premium"
-Whatsapp:083120857907
-Telegram:t.me/MasWayVPN
-fi
-./setup.sh
 
 echo '                   Wellcome User....                      '
 echo '                                                          '
@@ -47,7 +39,7 @@ echo '                                                          '
 echo '                                                          '
 echo '               AutoScript By MasWayVPN             '
 echo '              Telegram : t.me/MasWayVPN                  '
-sleep 20
+sleep 10
 fi
 echo '============================================='
 echo '         Silakan Tunggu sebentar '
