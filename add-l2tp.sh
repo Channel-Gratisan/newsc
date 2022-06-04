@@ -46,7 +46,7 @@ cat <<EOF
 ================================
 L2TP/IPSEC PSK VPN
 
-Server IP    : $PUBLIC_IP
+Server IP    : $MYIP
 IPsec PSK    : myvpn
 Username     : $VPN_USER
 Password     : $VPN_PASSWORD
