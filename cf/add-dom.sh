@@ -8,7 +8,7 @@ clear
 source /root/mail.conf
 DOMAIN=nextvpn.xyz
 CF_ID=akunabal.abal7770@gmail.com
-CF_KEY=85631cfadfe88c6ed37480022b58debe3e871
+CF_KEY=4502348bc050806208bb10e3a1af5b9d1d018
 set -euo pipefail
 IP=$(wget -qO- ifconfig.me/ip);
 read -p "Masukan Subdomain Anda :" sub
