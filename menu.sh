@@ -42,7 +42,7 @@ echo -e "\e[1;33m                       ✵✫ 𝑆𝐼𝑁𝐶𝐸 2021 ✫✵ 
 echo -e "\e[1;33m                      𝐴𝑈𝑇𝑂𝑆𝐶𝑅𝐼𝑃𝑇 𝑃𝑅𝐸𝑀𝐼𝑈𝑀 \e[0m" | lolcat
 echo -e ""
 echo -e "\e[1;33m=============================-Menu-=============================\e[0m" | lolcat
-echo -e "\e[1;33m*               Senarai Menu yang Disediakan\e[0m" | lolcat
+echo -e "\e[1;33m*                Menu yang Disediakan\e[0m" | lolcat
 echo -e ""
 echo -e "\e[1;33m=========================-Menu Protocol-========================\e[0m" | lolcat
 echo -e "\e[1;31m* [1]\e[0m  \e[1;32m: SSH & OVPN PANEL\e[0m"
