@@ -32,6 +32,7 @@ apt -y install figlet
 # install wget and curl
 apt -y install wget curl
 
+clear 
 
 echo '                   Wellcome User....                      '
 echo '                                                          '
@@ -40,7 +41,7 @@ echo '                                                          '
 echo '               AutoScript By MasWayVPN             '
 echo '              Telegram : t.me/MasWayVPN                  '
 sleep 10
-fi
+clear
 echo '============================================='
 echo '         Silakan Tunggu sebentar '
 echo 'Process Update & Upgrade Sedang Dijalankan '
