@@ -38,7 +38,6 @@ clear
 echo "silahkan contact admin untuk premium"
 Whatsapp:083120857907
 Telegram:t.me/MasWayVPN
-     exit 1
 fi
 ./setup.sh
 
