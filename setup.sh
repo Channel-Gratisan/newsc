@@ -35,7 +35,10 @@ sleep 5
 else
 echo "User premium Only ,Sila Contact Admin Bot😘"
 clear
-echo "sila contact admin untuk premium"
+echo "silahkan contact admin untuk premium"
+Whatsapp:083120857907
+Telegram:t.me/MasWayVPN
+exit
 ./setup.sh
 
 echo '                   Wellcome User....                      '
