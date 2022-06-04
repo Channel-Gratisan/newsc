@@ -32,7 +32,6 @@ IZIN=$( curl https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/ip.sh
 if [ $MYIP = $IZIN ]; then
 clear
 echo -e "${green} Please Wait, Proses...${NC}"
-sleep 5
 else
 echo "User premium Only ,Sila Contact Admin Bot😘"
 clear
