@@ -1,20 +1,4 @@
 #!/bin/bash
-rred='\e[1;31m'
-green='\e[0;32m'
-NC='\e[0m'
-MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/ip.sh | grep $MYIP )
-if [ $MYIP = $IZIN ]; then
-clear
-echo -e "${green} Please Wait, Proses...${NC}"
-sleep 5
-echo "User premium Only ,Sila Contact Admin Bot😘"
-clear
-echo "silahkan contact admin untuk premium"
-Whatsapp:083120857907
-Telegram:t.me/MasWayVPN
-exit 1
-fi
 
 # install text 
 apt update -y
@@ -38,6 +22,24 @@ fi
 if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		echo "OpenVZ is not supported"
 		exit 1
+fi
+
+red='\e[1;31m'
+green='\e[0;32m'
+NC='\e[0m'
+MYIP=$(wget -qO- ipinfo.io/ip);
+IZIN=$( curl https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/ip.sh | grep $MYIP )
+if [ $MYIP = $IZIN ]; then
+clear
+echo -e "${green} Please Wait, Proses...${NC}"
+sleep 5
+else
+echo "User premium Only ,Sila Contact Admin Bot😘"
+clear
+echo "silahkan contact admin untuk premium"
+Whatsapp:083120857907
+Telegram:t.me/MasWayVPN
+exit 1
 fi
 ./setup.sh
 
