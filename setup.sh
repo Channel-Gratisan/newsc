@@ -141,7 +141,7 @@ echo '============================================='
 sleep 3
 echo " "
 echo "=================================-MasWay VPN-===========================" | tee -a log-install.txt
-echo "" | tee -a log-install.txt
+echo "MASWAY" | lolcat
 echo "--------------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
