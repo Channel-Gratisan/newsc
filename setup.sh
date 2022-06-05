@@ -16,7 +16,7 @@ IZIN=$( curl https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/ip.sh
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
-echo -e "${green}Permission Accepted...${NC}"
+echo -e "${red}Permission Denied...${NC}"
 fi
 
 # install text 
@@ -34,7 +34,7 @@ apt -y install wget curl
 
 clear 
 
-echo '                   Wellcome User....                      '
+echo '                   Wellcome On My Script                     '
 echo '                                                          '
 echo '                                                          '
 echo '                                                          '
