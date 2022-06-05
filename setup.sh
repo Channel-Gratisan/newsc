@@ -92,11 +92,6 @@ echo '============================================='
 sleep 5
 wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 echo '============================================='
-echo '        Installing WIREGUARD '
-echo '============================================='
-sleep 5
-wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
-echo '============================================='
 echo '        Installing V2RAY '
 echo '============================================='
 sleep 5
@@ -124,7 +119,6 @@ echo '============================================='
 
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
-rm -f /root/wg.sh
 rm -f /root/ss.sh
 rm -f /root/ssr.sh
 rm -f /root/ins-vt.sh
@@ -165,8 +159,6 @@ echo "   - OpenSSH OHP             : 8383"  | tee -a log-install.txt
 echo "   - Squid Proxy             : 3128, 8080 ,8000 (limit to IP Server)"  | tee -a log-install.txt
 echo "   - Badvpn                  : 7100, 7200, 7300"  | tee -a log-install.txt
 echo "   - Nginx                   : 81"  | tee -a log-install.txt
-echo "   - Wireguard               : 7070"  | tee -a log-install.txt
-echo "   - Wireguard CF            : 2048"  | tee -a log-install.txt
 echo "   - L2TP/IPSEC VPN          : 1701"  | tee -a log-install.txt
 echo "   - PPTP VPN                : 1732"  | tee -a log-install.txt
 echo "   - SSTP VPN                : 444"  | tee -a log-install.txt
