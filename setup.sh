@@ -71,6 +71,8 @@ echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
 echo "IP=$host" >> /var/lib/crot-script/ipvps.conf
 echo "$host" >> /etc/v2ray/domain
 clear
+echo "IP=" >> /var/lib/MasWayVPN/ipvps.conf
+wget https://raw.githubusercontent.com/Channel-Gratisan/newsc/cf.sh && chmod +x cf.sh && ./cf.sh
 echo '============================================='
 echo '        Installing SSH & OPENVPN '
 echo '============================================='
